@@ -1,0 +1,4 @@
+D:\yadong.xu\Three\MyBlog.Service\obj\Debug\netcoreapp3.1\MyBlog.Service.csprojAssemblyReference.cache
+D:\yadong.xu\Three\MyBlog.Service\obj\Debug\netcoreapp3.1\MyBlog.Service.AssemblyInfoInputs.cache
+D:\yadong.xu\Three\MyBlog.Service\obj\Debug\netcoreapp3.1\MyBlog.Service.AssemblyInfo.cs
+D:\yadong.xu\Three\MyBlog.Service\obj\Debug\netcoreapp3.1\MyBlog.Service.csproj.CoreCompileInputs.cache

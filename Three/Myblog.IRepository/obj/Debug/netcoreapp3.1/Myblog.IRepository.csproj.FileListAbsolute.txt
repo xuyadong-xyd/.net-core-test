@@ -1,0 +1,12 @@
+D:\yadong.xu\Three\Myblog.IRepository\bin\Debug\netcoreapp3.1\MyBlog.IRepository.deps.json
+D:\yadong.xu\Three\Myblog.IRepository\bin\Debug\netcoreapp3.1\MyBlog.IRepository.dll
+D:\yadong.xu\Three\Myblog.IRepository\bin\Debug\netcoreapp3.1\MyBlog.IRepository.pdb
+D:\yadong.xu\Three\Myblog.IRepository\bin\Debug\netcoreapp3.1\MyblogModel.dll
+D:\yadong.xu\Three\Myblog.IRepository\bin\Debug\netcoreapp3.1\MyblogModel.pdb
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.csprojAssemblyReference.cache
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.AssemblyInfoInputs.cache
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.AssemblyInfo.cs
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.csproj.CoreCompileInputs.cache
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.csproj.CopyComplete
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.dll
+D:\yadong.xu\Three\Myblog.IRepository\obj\Debug\netcoreapp3.1\MyBlog.IRepository.pdb
