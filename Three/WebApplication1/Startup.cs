@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Myblog.Repository;
+using MyBlog.IRepository;
+using MyBlog.IService;
+using MyBlog.Service;
 using SqlSugar.IOC;
 
 namespace WebApplication1
@@ -26,13 +30,17 @@ namespace WebApplication1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            ///sqlsugarIOC
             #region  
             services.AddSqlSugar(ioc: new IocConfig()
             {
-                ConnectionString = this.Configuration[key:"SqlConn"],
+                ConnectionString = this.Configuration[key: "SqlConn"],
                 DbType = IocDbType.SqlServer,
                 IsAutoCloseConnection = true//自动释放
             });
+            #endregion
+            #region IOC依赖注入
+            services.AdCustomIOC();
             #endregion
 
         }
@@ -54,5 +62,21 @@ namespace WebApplication1
                 endpoints.MapControllers();
             });
         }
+    }
+    public static class IOCExtend
+    {
+        public static IServiceCollection AdCustomIOC(this IServiceCollection services)
+        {
+            services.AddScoped<IBlogNewsRepository, BlogNewsRepository>();
+            services.AddScoped<IBlogMewsService, BlogNewsService>();
+            services.AddScoped<ITypeInfoRepository, TypeInfoRepository>();
+            services.AddScoped<ITypeInfoService, TypeInfoService>();
+            services.AddScoped<IBlogNewsRepository, BlogNewsRepository>();
+            services.AddScoped<IBlogMewsService, BlogNewsService>();
+            services.AddScoped<IWriterInfoRepository, WriterInfoRepository>();
+            services.AddScoped<IWriterInfoService, WriterInfoService>();
+            return services;
+        }
+
     }
 }

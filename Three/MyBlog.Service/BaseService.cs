@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using MyBlog.IRepository;
+using SqlSugar;
 
 namespace MyBlog.Service
 {
@@ -12,44 +13,44 @@ namespace MyBlog.Service
         //从子类的构造函数中传入
         protected IBaseRepository<TEntity> _iBaseRepository;
 
-        public virtual async Task<bool> CreateAsync(TEntity tentity)
+        public  async Task<bool> CreateAsync(TEntity tentity)
         {
             return await _iBaseRepository.CreateAsync(tentity);
         }
 
-        public virtual async Task<bool> DeleteAsync(int id)
+        public  async Task<bool> DeleteAsync(int id)
         {
             return await _iBaseRepository.DeleteAsync(id);
         }
 
-        public virtual async Task<bool> EditAsync(TEntity tentity)
+        public  async Task<bool> EditAsync(TEntity tentity)
         {
             return await _iBaseRepository.EditAsync(tentity);
         }
 
-        public virtual async Task<TEntity> FinedAsync(int id)
+        public  async Task<TEntity> FinedAsync(int id)
         {
             return await _iBaseRepository.FinedAsync(id);
         }
 
-        public virtual async Task<List<TEntity>> QueryAsync()
+        public  async Task<List<TEntity>> QueryAsync()
         {
             return await _iBaseRepository.QueryAsync();
         }
 
-        public  Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func)
+        public async Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func)
         {
-            throw new NotImplementedException();
+            return await _iBaseRepository.QueryAsync(func);
         }
 
-        public Task<List<TEntity>> QueryAsync(int page, int size, RefAsync<int> total)
+        public async Task<List<TEntity>> QueryAsync(int page, int size, RefAsync<int> total)
         {
-            throw new NotImplementedException();
+            return await _iBaseRepository.QueryAsync(page, size, total);
         }
 
-        public Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func, int page, int size, RefAsync<int> total)
+        public async Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func, int page, int size, RefAsync<int> total)
         {
-            throw new NotImplementedException();
+            return await _iBaseRepository.QueryAsync(func, page, size, total);
         }
     }
 }

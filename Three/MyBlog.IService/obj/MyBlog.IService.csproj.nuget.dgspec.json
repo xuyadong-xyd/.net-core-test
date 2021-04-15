@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\yadong.xu\\Three\\MyBlog.IService\\MyBlog.IService.csproj": {}
+    "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj": {}
   },
   "projects": {
-    "D:\\yadong.xu\\Three\\MyBlog.IService\\MyBlog.IService.csproj": {
+    "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yadong.xu\\Three\\MyBlog.IService\\MyBlog.IService.csproj",
+        "projectUniqueName": "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj",
         "projectName": "MyBlog.IService",
-        "projectPath": "D:\\yadong.xu\\Three\\MyBlog.IService\\MyBlog.IService.csproj",
+        "projectPath": "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\yadong.xu\\Three\\MyBlog.IService\\obj\\",
+        "outputPath": "D:\\实战项目\\Three\\MyBlog.IService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj": {
-                "projectPath": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj"
+              "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj": {
+                "projectPath": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj": {
+    "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj",
+        "projectUniqueName": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj",
         "projectName": "MyblogModel",
-        "projectPath": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj",
+        "projectPath": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\yadong.xu\\Three\\MyblogModel\\obj\\",
+        "outputPath": "D:\\实战项目\\Three\\MyblogModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

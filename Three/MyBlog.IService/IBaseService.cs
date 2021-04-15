@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyBlog.IService
 {
-   public interface IBaseService<TEntity> where TEntity:class,new()
+    public interface IBaseService<TEntity> where TEntity : class, new()
     {
         Task<bool> CreateAsync(TEntity tentity);
         Task<bool> DeleteAsync(int id);
@@ -40,9 +41,5 @@ namespace MyBlog.IService
         /// <param name="total"></param>
         /// <returns></returns>
         Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func, int page, int size, RefAsync<int> total);
-    }
-
-    public class RefAsync<T>
-    {
     }
 }

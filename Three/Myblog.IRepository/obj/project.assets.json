@@ -7240,11 +7240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\yadong.xu\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj",
-      "projectName": "Myblog.IRepository",
-      "projectPath": "D:\\yadong.xu\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj",
+      "projectUniqueName": "D:\\实战项目\\Three\\Myblog.IRepository\\MyBlog.IRepository.csproj",
+      "projectName": "MyBlog.IRepository",
+      "projectPath": "D:\\实战项目\\Three\\Myblog.IRepository\\MyBlog.IRepository.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\yadong.xu\\Three\\Myblog.IRepository\\obj\\",
+      "outputPath": "D:\\实战项目\\Three\\Myblog.IRepository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7265,8 +7265,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj": {
-              "projectPath": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj"
+            "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj": {
+              "projectPath": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj"
             }
           }
         }

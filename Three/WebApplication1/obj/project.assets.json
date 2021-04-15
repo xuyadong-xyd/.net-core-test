@@ -2164,6 +2164,19 @@
           "bin/placeholder/MyBlog.IRepository.dll": {}
         }
       },
+      "MyBlog.IService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MyblogModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyBlog.IService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBlog.IService.dll": {}
+        }
+      },
       "Myblog.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2176,6 +2189,23 @@
         },
         "runtime": {
           "bin/placeholder/Myblog.Repository.dll": {}
+        }
+      },
+      "MyBlog.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MyBlog.IRepository": "1.0.0",
+          "MyBlog.IService": "1.0.0",
+          "Myblog.Repository": "1.0.0",
+          "MyblogModel": "1.0.0",
+          "SqlSugarCore": "5.0.2.7"
+        },
+        "compile": {
+          "bin/placeholder/MyBlog.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBlog.Service.dll": {}
         }
       },
       "MyblogModel/1.0.0": {
@@ -7307,10 +7337,20 @@
       "path": "../Myblog.IRepository/MyBlog.IRepository.csproj",
       "msbuildProject": "../Myblog.IRepository/MyBlog.IRepository.csproj"
     },
+    "MyBlog.IService/1.0.0": {
+      "type": "project",
+      "path": "../MyBlog.IService/MyBlog.IService.csproj",
+      "msbuildProject": "../MyBlog.IService/MyBlog.IService.csproj"
+    },
     "Myblog.Repository/1.0.0": {
       "type": "project",
       "path": "../Myblog.Repository/Myblog.Repository.csproj",
       "msbuildProject": "../Myblog.Repository/Myblog.Repository.csproj"
+    },
+    "MyBlog.Service/1.0.0": {
+      "type": "project",
+      "path": "../MyBlog.Service/MyBlog.Service.csproj",
+      "msbuildProject": "../MyBlog.Service/MyBlog.Service.csproj"
     },
     "MyblogModel/1.0.0": {
       "type": "project",
@@ -7321,6 +7361,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MyBlog.IRepository >= 1.0.0",
+      "MyBlog.IService >= 1.0.0",
+      "MyBlog.Service >= 1.0.0",
       "Myblog.Repository >= 1.0.0",
       "MyblogModel >= 1.0.0"
     ]
@@ -7332,11 +7374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\yadong.xu\\Three\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "D:\\yadong.xu\\Three\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\实战项目\\Three\\WebApplication1\\Myblog.WebApi.csproj",
+      "projectName": "Myblog.WebApi",
+      "projectPath": "D:\\实战项目\\Three\\WebApplication1\\Myblog.WebApi.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\yadong.xu\\Three\\WebApplication1\\obj\\",
+      "outputPath": "D:\\实战项目\\Three\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7357,14 +7399,20 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\yadong.xu\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj": {
-              "projectPath": "D:\\yadong.xu\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj"
+            "D:\\实战项目\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj": {
+              "projectPath": "D:\\实战项目\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj"
             },
-            "D:\\yadong.xu\\Three\\Myblog.Repository\\Myblog.Repository.csproj": {
-              "projectPath": "D:\\yadong.xu\\Three\\Myblog.Repository\\Myblog.Repository.csproj"
+            "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj": {
+              "projectPath": "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj"
             },
-            "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj": {
-              "projectPath": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj"
+            "D:\\实战项目\\Three\\Myblog.Repository\\Myblog.Repository.csproj": {
+              "projectPath": "D:\\实战项目\\Three\\Myblog.Repository\\Myblog.Repository.csproj"
+            },
+            "D:\\实战项目\\Three\\MyBlog.Service\\MyBlog.Service.csproj": {
+              "projectPath": "D:\\实战项目\\Three\\MyBlog.Service\\MyBlog.Service.csproj"
+            },
+            "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj": {
+              "projectPath": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj"
             }
           }
         }

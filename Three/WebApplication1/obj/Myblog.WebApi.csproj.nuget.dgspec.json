@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\实战项目\\Three\\MyBlog.Service\\MyBlog.Service.csproj": {}
+    "D:\\实战项目\\Three\\WebApplication1\\Myblog.WebApi.csproj": {}
   },
   "projects": {
     "D:\\实战项目\\Three\\Myblog.IRepository\\MyBlog.IRepository.csproj": {
@@ -329,6 +329,83 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\实战项目\\Three\\WebApplication1\\Myblog.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\实战项目\\Three\\WebApplication1\\Myblog.WebApi.csproj",
+        "projectName": "Myblog.WebApi",
+        "projectPath": "D:\\实战项目\\Three\\WebApplication1\\Myblog.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\实战项目\\Three\\WebApplication1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\实战项目\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj": {
+                "projectPath": "D:\\实战项目\\Three\\Myblog.IRepository\\Myblog.IRepository.csproj"
+              },
+              "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj": {
+                "projectPath": "D:\\实战项目\\Three\\MyBlog.IService\\MyBlog.IService.csproj"
+              },
+              "D:\\实战项目\\Three\\Myblog.Repository\\Myblog.Repository.csproj": {
+                "projectPath": "D:\\实战项目\\Three\\Myblog.Repository\\Myblog.Repository.csproj"
+              },
+              "D:\\实战项目\\Three\\MyBlog.Service\\MyBlog.Service.csproj": {
+                "projectPath": "D:\\实战项目\\Three\\MyBlog.Service\\MyBlog.Service.csproj"
+              },
+              "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj": {
+                "projectPath": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

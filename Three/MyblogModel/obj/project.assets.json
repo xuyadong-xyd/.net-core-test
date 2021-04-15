@@ -7222,11 +7222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj",
+      "projectUniqueName": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj",
       "projectName": "MyblogModel",
-      "projectPath": "D:\\yadong.xu\\Three\\MyblogModel\\MyblogModel.csproj",
+      "projectPath": "D:\\实战项目\\Three\\MyblogModel\\MyblogModel.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\yadong.xu\\Three\\MyblogModel\\obj\\",
+      "outputPath": "D:\\实战项目\\Three\\MyblogModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
